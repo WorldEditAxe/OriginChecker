@@ -2,7 +2,7 @@ name: OriginChecker
 version: '1.0-SNAPSHOT'
 main: me.q13x.originchecker.platform.paper.PaperOriginCheckerPlugin
 api-version: '1.21'
-prefix: Lobby
+prefix: OriginChecker
 authors: [ q13x, WorldEditAxe ]
 description: A plugin that checks the origin of incoming client connections
 depend: [ packetevents ]

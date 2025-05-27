@@ -1,0 +1,7 @@
+name: OriginChecker
+version: '1.0-SNAPSHOT'
+main: me.q13x.originChecker.OriginChecker
+api-version: '1.21'
+prefix: Lobby
+authors: [q13x, WorldEditAxe]
+description: A simple Minecraft plugin that checks the origin of incoming requests

@@ -1,0 +1,19 @@
+name: OriginChecker
+version: '1.0-SNAPSHOT'
+main: me.q13x.originchecker.platform.paper.PaperOriginCheckerPlugin
+api-version: '1.21'
+prefix: Lobby
+authors: [ q13x, WorldEditAxe ]
+description: A plugin that checks the origin of incoming client connections
+depend: [ packetevents ]
+
+commands:
+  originchecker:
+    description: OriginChecker's main command.
+    permission: 'originchecker.reload'
+    usage: "/originchecker reload"
+
+permissions:
+  reload:
+    description: Allows access to run /originchecker reload to reload the plugin's configs.
+    default: op

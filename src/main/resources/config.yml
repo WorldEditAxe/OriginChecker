@@ -1,0 +1,21 @@
+# OriginChecker Configuration
+
+# List of allowed hostnames/domains that players can connect from
+allowed_hosts:
+#  - "localhost"
+
+# How to respond to invalid origins
+# Valid options: DISCONNECT_MESSAGE, STEALTH_FIN, STEALTH_RST
+response_type: DISCONNECT_MESSAGE
+
+# Message to show when a player is disconnected due to invalid origin
+# (only valid when response_type is set to DISCONNECT_MESSAGE)
+response_message: '&cInvalid origin; please use the correct server address!'
+
+# Whether to respond to legacy ping requests (pre-1.7)
+# It is recommended that you leave this set to false,
+# people can find the server if it still responds to legacy
+# pings!
+# This will also have the side effect of immediately closing
+# non-Minecraft connections to the server.
+respond_legacy_pings: false

@@ -10,7 +10,7 @@ response_type: DISCONNECT_MESSAGE
 
 # Message to show when a player is disconnected due to invalid origin
 # (only valid when response_type is set to DISCONNECT_MESSAGE)
-response_message: '&cInvalid origin; please use the correct server address!'
+response_message: '<red>Invalid origin; please use the correct server address!</red>'
 
 # Whether to respond to legacy ping requests (pre-1.7)
 # It is recommended that you leave this set to false,
